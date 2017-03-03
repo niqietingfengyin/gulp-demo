@@ -1,0 +1,1 @@
+define("tpl70070300",function(n){return function(n,t,e){}});

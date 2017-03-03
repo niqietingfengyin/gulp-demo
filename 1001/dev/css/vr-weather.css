@@ -1,0 +1,318 @@
+.vr-weather20160622 .weather-city a:after, .vr-weather20160622 .weather-date-info .gps:before, .vr-weather20160622 .box-weather-quality p.hours:after, .vr-weather20160622 .about-promote .promote-more:after { font-family: "iconfont" !important; }
+
+.vr-weather20160622 .weather-date:before, .vr-weather20160622 .box-weather-quality:before, .vr-weather20160622 .weather-date:after, .vr-weather20160622 .box-weather-quality:after { content: ''; display: block; }
+
+.vr-weather20160622 .weather-date:after, .vr-weather20160622 .box-weather-quality:after { clear: both; }
+
+.vr-weather20160622 .box-weather-quality p, .vr-weather20160622 .box-weather-quality p:before { float: left; display: inline; }
+
+.vr-weather20160622 .weather-city span, .vr-weather20160622 .weather-mes p span, .vr-weather20160622 .about-promote .item-list h4 { white-space: nowrap; text-overflow: ellipsis; overflow: hidden; }
+
+.vr-weather20160622 .item-text .img-tag { padding-bottom: 100%; }
+
+.vr-weather20160622.margin-default { margin: -6px -19px 0; }
+
+.vr-weather20160622 .weather-date { font-size: 14px; line-height: 16px; color: #999; margin: -2px 0; }
+
+.vr-weather20160622 .weather-date i { font-style: normal; }
+
+.vr-weather20160622 .weather-date span { float: right; display: inline; }
+
+.vr-weather20160622 .weather-city a { position: relative; z-index: 1; display: table; table-layout: fixed; width: 100%; box-sizing: border-box; padding: 0 0px 0 0; border-bottom: solid 1px #eee; color: #333; }
+
+.vr-weather20160622 .weather-city a:after { position: absolute; z-index: 2; right: 0; top: 0; content: '\e664'; line-height: 40px; font-size: 14px; color: #666; -webkit-transform: rotate(90deg); transform: rotate(90deg); }
+
+.vr-weather20160622 .weather-city a:last-child { border-bottom: none; }
+
+.vr-weather20160622 .weather-city span { display: table-cell; line-height: 42px; }
+
+.vr-weather20160622 .weather-city .city-name { width: 35%; padding-right: 5%; }
+
+.vr-weather20160622 .weather-city .city-state { width: 40%; padding-right: 5%; }
+
+.vr-weather20160622 .weather-city .city-state i { display: inline-block; width: 23px; height: 20px; background-position: 0 0; background-repeat: no-repeat; background-size: auto 20px; vertical-align: middle; margin-right: 3px; }
+
+.vr-weather20160622 .weather-city .city-temperature { width: 70px; }
+
+.vr-weather20160622 .weather-mes { display: -webkit-box; display: -webkit-flex; display: flex; padding: 3px 0 9px 0; -webkit-box-align: center; -webkit-align-items: center; align-items: center; color: #333; }
+
+.vr-weather20160622 .weather-mes .temperature { color: #333; font-size: 66px; line-height: 81px; padding: 0 20px 0 0; font-weight: normal; font-family: 'HelveticaNeue-Thin'; }
+
+.vr-weather20160622 .weather-mes .temperature i { display: inline-block; width: 8px; height: 8px; border: solid 2px #333; border-radius: 60%; vertical-align: top; margin-top: 13px; }
+
+.vr-weather20160622 .weather-mes p { font-size: 14px; line-height: 26px; }
+
+.vr-weather20160622 .weather-mes p span { display: block; }
+
+.vr-weather20160622 .weather-mes p .degree { color: #ee8030; }
+
+.vr-weather20160622 .weather-mes p em { color: #333; margin-left: 3px; }
+
+.vr-weather20160622 .weather-mes.weather-mes-info { padding: 54px 0 0 0; color: #fff; }
+
+.vr-weather20160622 .weather-mes.weather-mes-info .temperature { padding: 0 10px 0 25px; color: #fff; font-family: 'HelveticaNeue-Thin'; font-size: 100px; line-height: 100px; }
+
+.vr-weather20160622 .weather-mes.weather-mes-info .temperature i { display: inline-block; width: 14px; height: 14px; border: solid 2px #fff; border-radius: 60%; vertical-align: top; margin-top: 11px; }
+
+@media screen and (max-width: 321px) { .vr-weather20160622 .weather-mes.weather-mes-info .temperature { font-size: 66px; }
+  .vr-weather20160622 .weather-mes.weather-mes-info .temperature i { width: 8px; height: 8px; margin-top: 23px; } }
+
+.vr-weather20160622 .weather-mes.weather-mes-info p { padding-top: 10px; line-height: 25px; }
+
+.vr-weather20160622 .box-weather-img { position: relative; z-index: 1; }
+
+.vr-weather20160622 .box-weather-img.type01 { background: url(../../images/weather/img-weather01.png) center center no-repeat; background-size: cover; }
+
+.vr-weather20160622 .box-weather-img.type02 { background: url(../../images/weather/img-weather02.png) center center no-repeat; background-size: cover; }
+
+.vr-weather20160622 .box-weather-img.type03 { background: url(../../images/weather/img-weather03.png) center center no-repeat; background-size: cover; }
+
+.vr-weather20160622 .box-weather-img.type04 { background: url(../../images/weather/img-weather04.png) center center no-repeat; background-size: cover; }
+
+.vr-weather20160622 .box-weather-img.type05 { background: url(../../images/weather/img-weather05.png) center center no-repeat; background-size: cover; }
+
+.vr-weather20160622 .box-weather-img.type06 { background: url(../../images/weather/img-weather06.png) center center no-repeat; background-size: cover; }
+
+.vr-weather20160622 .box-weather-img.type07 { background: url(../../images/weather/img-weather07.png) center center no-repeat; background-size: cover; }
+
+.vr-weather20160622 .box-weather-img.type08 { background: url(../../images/weather/img-weather08.png) center center no-repeat; background-size: cover; }
+
+.vr-weather20160622 .box-weather-img.type09 { background: url(../../images/weather/img-weather09.png) center center no-repeat; background-size: cover; }
+
+.vr-weather20160622 .weather-date-info { padding: 12px 14px 0; color: rgba(255, 255, 255, 0.8); }
+
+.vr-weather20160622 .weather-date-info .date { margin-right: 18px; }
+
+.vr-weather20160622 .weather-date-info .gps { float: none; display: inline-block; margin: 0 30px 0 0; }
+
+.vr-weather20160622 .weather-date-info .gps:before { content: '\e60b'; margin-right: 3px; }
+
+.vr-weather20160622 .icon-weather { position: absolute; top: 8px; right: 14px; z-index: 4; width: 26px; height: 26px; background: #f58c23 url(../../images/weather/icon-weather01.png) center center no-repeat; border-radius: 50%; border: solid 2px #fff; background-size: auto 15px; }
+
+.vr-weather20160622 .box-alert { position: relative; z-index: 1; margin: 23px 14px -20px; padding: 6px 7px 6px 27px; line-height: 18px; background: rgba(0, 0, 0, 0.1); color: #fff; border-radius: 2px; }
+
+.vr-weather20160622 .box-alert i { position: absolute; z-index: 2; top: 7px; left: 7px; width: 16px; height: 16px; line-height: 16px; font-size: 12px; font-style: normal; color: #fff; text-align: center; border-radius: 2px; }
+
+.vr-weather20160622 .box-alert i.type01 { background: #2843ec; }
+
+.vr-weather20160622 .box-alert i.type02 { background: #e9bd0b; }
+
+.vr-weather20160622 .box-alert i.type03 { background: #eb822d; }
+
+.vr-weather20160622 .box-alert i.type04 { background: #d32c20; }
+
+.vr-weather20160622 .box-weather-quality { padding: 6px 0 17px 14px; }
+
+.vr-weather20160622 .box-weather-quality p { height: 14px; line-height: 14px; padding: 8px 6px; margin-right: 6px; border-radius: 2px; color: #fff; background: rgba(0, 0, 0, 0.1); }
+
+.vr-weather20160622 .box-weather-quality p span { margin-left: 3px; }
+
+.vr-weather20160622 .box-weather-quality p:before { content: ''; width: 4px; height: 14px; vertical-align: middle; margin-right: 6px; border-radius: 1px; }
+
+.vr-weather20160622 .box-weather-quality p.type01:before { background: #32c304; }
+
+.vr-weather20160622 .box-weather-quality p.type02:before { background: #9ee30c; }
+
+.vr-weather20160622 .box-weather-quality p.type03:before { background: #ffd401; }
+
+.vr-weather20160622 .box-weather-quality p.type04:before { background: #ff8527; }
+
+.vr-weather20160622 .box-weather-quality p.type05:before { background: #eb3124; }
+
+.vr-weather20160622 .box-weather-quality p.type06:before { background: #7a03a0; }
+
+.vr-weather20160622 .box-weather-quality p.limit:before { display: none; }
+
+.vr-weather20160622 .box-weather-quality p.hours { margin-right: 0; }
+
+.vr-weather20160622 .box-weather-quality p.hours:before { display: none; }
+
+.vr-weather20160622 .box-weather-quality p.hours:after { display: inline-block; content: '\e664'; vertical-align: middle; color: #fff; line-height: 14px; margin-left: 5px; margin-top: -2px; -webkit-transform: rotate(180deg); transform: rotate(180deg); }
+
+.vr-weather20160622 .box-weather-quality p.hours.active:after { -webkit-transform: rotate(0); transform: rotate(0); }
+
+.vr-weather20160622 .box-weather-quality .hours-link { display: inline-block; height: 14px; line-height: 14px; padding: 8px 12px; margin-right: 10px; border-radius: 2px; color: #fff; background: rgba(0, 0, 0, 0.1); }
+
+.vr-weather20160622 .box-weather-data .more-box-new { margin: -6px 19px 0; }
+
+.vr-weather20160622 .box-weather-data .more-box-new a { color: #fff; }
+
+.vr-weather20160622 .box-weather-data.type01 { background: #2f70b6; }
+
+.vr-weather20160622 .box-weather-data.type01 .weather-hour-list { border-color: #347dcb; }
+
+.vr-weather20160622 .box-weather-data.type02 { background: #346bad; }
+
+.vr-weather20160622 .box-weather-data.type02 .weather-hour-list { border-color: #3c79c2; }
+
+.vr-weather20160622 .box-weather-data.type03 { background: #6589ad; }
+
+.vr-weather20160622 .box-weather-data.type03 .weather-hour-list { border-color: #7aa3ce; }
+
+.vr-weather20160622 .box-weather-data.type04 { background: #646e80; }
+
+.vr-weather20160622 .box-weather-data.type04 .weather-hour-list { border-color: #6f7b8f; }
+
+.vr-weather20160622 .box-weather-data.type05 { background: #646e80; }
+
+.vr-weather20160622 .box-weather-data.type05 .weather-hour-list { border-color: #6f7b8f; }
+
+.vr-weather20160622 .box-weather-data.type06 { background: #646e80; }
+
+.vr-weather20160622 .box-weather-data.type06 .weather-hour-list { border-color: #6f7b8f; }
+
+.vr-weather20160622 .box-weather-data.type07 { background: #506578; }
+
+.vr-weather20160622 .box-weather-data.type07 .weather-hour-list { border-color: #65798d; }
+
+.vr-weather20160622 .box-weather-data.type08 { background: #476067; }
+
+.vr-weather20160622 .box-weather-data.type08 .weather-hour-list { border-color: #516c75; }
+
+.vr-weather20160622 .box-weather-data.type09 { background: #777269; }
+
+.vr-weather20160622 .box-weather-data.type09 .weather-hour-list { border-color: #847f75; }
+
+.vr-weather20160622 .weather-data-list { display: table; table-layout: fixed; width: 100%; padding: 16px 0; }
+
+.vr-weather20160622 .weather-data-list.data-list-font li span { font-size: 12px; }
+
+.vr-weather20160622 .weather-data-list li { display: table-cell; width: 16%; }
+
+.vr-weather20160622 .weather-data-list li:first-child span { color: rgba(255, 255, 255, 0.3); }
+
+.vr-weather20160622 .weather-data-list li:first-child span.data-date2 { color: rgba(255, 255, 255, 0.1); }
+
+.vr-weather20160622 .weather-data-list li:first-child span.data-state:before { opacity: 0.3; filter: alpha(opacity=30); }
+
+.vr-weather20160622 .weather-data-list li:first-child img { opacity: 0.3; filter: alpha(opacity=30); }
+
+.vr-weather20160622 .weather-data-list span { display: block; color: #fff; font-size: 14px; line-height: 20px; text-align: center; }
+
+.vr-weather20160622 .weather-data-list span.data-date2 { font-size: 12px; line-height: 15px; margin-bottom: 9px; color: rgba(255, 255, 255, 0.3); }
+
+.vr-weather20160622 .weather-data-list span.data-state { font-size: 12px; }
+
+.vr-weather20160622 .weather-data-list span.data-wind { margin: 9px 0 -1px; }
+
+.vr-weather20160622 .weather-data-list span.data-icon { padding-top: 0; }
+
+.vr-weather20160622 .weather-data-list span.data-icon img { display: block; width: 20px; height: 20px; margin: 0 auto; -webkit-tap-highlight-color: transparent; }
+
+.vr-weather20160622 .weather-data-list span.data-state-type { position: relative; z-index: 1; margin-top: 11px; }
+
+.vr-weather20160622 .weather-data-list span.data-state-type:before { display: block; position: absolute; z-index: 2; top: 2px; left: 50%; margin-left: -16px; width: 32px; height: 16px; content: ''; border-radius: 2px; opacity: 0.7; filter: alpha(opacity=70); }
+
+.vr-weather20160622 .weather-data-list span.data-state-type i { display: block; position: relative; z-index: 3; text-align: center; font-style: normal; font-size: 12px; line-height: 20px; }
+
+.vr-weather20160622 .weather-data-list span.data-state-type.type01:before { background: #3895f3; }
+
+.vr-weather20160622 .weather-data-list span.data-state-type.type02:before { background: #10c7a4; }
+
+.vr-weather20160622 .weather-data-list span.data-state-type.type03:before { background: #f5c84f; }
+
+.vr-weather20160622 .weather-data-list span.data-state-type.type04:before { background: #ff8758; }
+
+.vr-weather20160622 .weather-data-list span.data-state-type.type05:before { background: #ed4343; }
+
+.vr-weather20160622 .weather-data-list span.data-state-type.type06:before { background: #963bd5; }
+
+.vr-weather20160622 .weather-data-list.weather-hour-list { border-bottom: solid 6px #347dcb; }
+
+.vr-weather20160622 .weather-data-list.weather-hour-list li span { color: rgba(255, 255, 255, 0.3); }
+
+.vr-weather20160622 .weather-data-list.weather-hour-list li span.data-state { font-size: 14px; color: white; }
+
+.vr-weather20160622 .weather-data-list.weather-hour-list li span.data-icon { padding: 10px 0 9px; }
+
+.vr-weather20160622 .box-about-promote .vr-tit { color: #333; margin: 0 14px; border-bottom: solid 1px #eee; }
+
+.vr-weather20160622 .box-about-promote .vr-tit a { color: #333; padding: 13px 0 10px; }
+
+.vr-weather20160622 .promote-title { height: 52px; line-height: 52px; font-size: 18px; color: #333; padding: 0 14px; border-bottom: solid 1px #eee; }
+
+.vr-weather20160622 .about-promote { position: relative; z-index: 1; padding: 0 14px; }
+
+.vr-weather20160622 .about-promote h4 { line-height: 44px; height: 44px; font-size: 16px; color: #333; }
+
+.vr-weather20160622 .about-promote .item-list { padding-bottom: 5px; border-bottom: solid 1px #eee; }
+
+.vr-weather20160622 .about-promote .item-list h4 { line-height: 32px; height: 32px; padding: 0; font-size: 14px; }
+
+.vr-weather20160622 .about-promote .img-flex { margin-bottom: 17px; }
+
+.vr-weather20160622 .about-promote .img-flex .textEllipsis { font-size: 14px; line-height: 21px; height: 21px; }
+
+.vr-weather20160622 .about-promote .promote-more { position: absolute; z-index: 2; right: 10px; top: 0; font-size: 14px; color: #666; line-height: 44px; }
+
+.vr-weather20160622 .about-promote .promote-more:after { display: inline-block; content: '\e664'; line-height: 14px; font-size: 14px; color: #666; -webkit-transform: rotate(90deg); transform: rotate(90deg); }
+
+.vr-weather20160622.weather-night .box-weather-img { position: relative; z-index: 1; }
+
+.vr-weather20160622.weather-night .box-weather-img.type01 { background: url(../../images/weather/img-night-weather01.png) center center no-repeat; background-size: cover; }
+
+.vr-weather20160622.weather-night .box-weather-img.type02 { background: url(../../images/weather/img-night-weather02.png) center center no-repeat; background-size: cover; }
+
+.vr-weather20160622.weather-night .box-weather-img.type03 { background: url(../../images/weather/img-night-weather03.png) center center no-repeat; background-size: cover; }
+
+.vr-weather20160622.weather-night .box-weather-img.type04 { background: url(../../images/weather/img-night-weather04.png) center center no-repeat; background-size: cover; }
+
+.vr-weather20160622.weather-night .box-weather-img.type05 { background: url(../../images/weather/img-night-weather05.png) center center no-repeat; background-size: cover; }
+
+.vr-weather20160622.weather-night .box-weather-img.type06 { background: url(../../images/weather/img-night-weather06.png) center center no-repeat; background-size: cover; }
+
+.vr-weather20160622.weather-night .box-weather-img.type07 { background: url(../../images/weather/img-night-weather07.png) center center no-repeat; background-size: cover; }
+
+.vr-weather20160622.weather-night .box-weather-img.type08 { background: url(../../images/weather/img-night-weather08.png) center center no-repeat; background-size: cover; }
+
+.vr-weather20160622.weather-night .box-weather-img.type09 { background: url(../../images/weather/img-night-weather09.png) center center no-repeat; background-size: cover; }
+
+.vr-weather20160622.weather-night .box-weather-data .more-box-new { margin: -6px 19px 0; }
+
+.vr-weather20160622.weather-night .box-weather-data .more-box-new a { color: #fff; }
+
+.vr-weather20160622.weather-night .box-weather-data.type01 { background: #3c609d; }
+
+.vr-weather20160622.weather-night .box-weather-data.type01 .weather-hour-list { border-color: #446bb3; }
+
+.vr-weather20160622.weather-night .box-weather-data.type02 { background: #3c609d; }
+
+.vr-weather20160622.weather-night .box-weather-data.type02 .weather-hour-list { border-color: #446bb3; }
+
+.vr-weather20160622.weather-night .box-weather-data.type03 { background: #42629e; }
+
+.vr-weather20160622.weather-night .box-weather-data.type03 .weather-hour-list { border-color: #4c73b8; }
+
+.vr-weather20160622.weather-night .box-weather-data.type04 { background: #395475; }
+
+.vr-weather20160622.weather-night .box-weather-data.type04 .weather-hour-list { border-color: #3e5b80; }
+
+.vr-weather20160622.weather-night .box-weather-data.type05 { background: #395475; }
+
+.vr-weather20160622.weather-night .box-weather-data.type05 .weather-hour-list { border-color: #3e5b80; }
+
+.vr-weather20160622.weather-night .box-weather-data.type06 { background: #395475; }
+
+.vr-weather20160622.weather-night .box-weather-data.type06 .weather-hour-list { border-color: #3e5b80; }
+
+.vr-weather20160622.weather-night .box-weather-data.type07 { background: #4a5e71; }
+
+.vr-weather20160622.weather-night .box-weather-data.type07 .weather-hour-list { border-color: #5e7388; }
+
+.vr-weather20160622.weather-night .box-weather-data.type08 { background: #4a5e65; }
+
+.vr-weather20160622.weather-night .box-weather-data.type08 .weather-hour-list { border-color: #576d73; }
+
+.vr-weather20160622.weather-night .box-weather-data.type09 { background: #61605f; }
+
+.vr-weather20160622.weather-night .box-weather-data.type09 .weather-hour-list { border-color: #706e6a; }
+
+.vr-weather20160622 .load-default { padding: 13px 0; }
+
+.vr-weather20160622 .loading-weather { padding: 13px 0; }
+
+.vr-weather20160622 .loading-weather:before { display: none; }
+
+.weather-scroll-layout { position: relative; z-index: 1; width: 100%; height: 113px; overflow: hidden; }
+
+.weather-scroll-layout .weather-hour-list { position: absolute; z-index: 2; width: 100%; left: 0; top: 0; }

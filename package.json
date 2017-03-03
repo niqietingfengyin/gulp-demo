@@ -1,0 +1,22 @@
+{
+  "name": "gulp1128",
+  "version": "1.0.0",
+  "description": "test gulp plugin",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yuyingying",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.18.5",
+    "gulp": "^3.9.1",
+    "gulp-md5": "^0.1.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.5.4",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^2.0.0",
+    "gulp-watch": "^4.3.11",
+    "through2": "^2.0.3"
+  }
+}

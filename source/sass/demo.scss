@@ -1,0 +1,9 @@
+.container {
+  display: flex;
+}
+$color:  #abab12;
+$li : 278px ;
+body{
+  background-color: $color ;
+  padding-left:$li ;
+}
